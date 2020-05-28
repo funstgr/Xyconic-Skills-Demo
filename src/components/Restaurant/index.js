@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import logo from '../../images/BMO image.png';
 
 class Restaurant extends PureComponent {
   render() {

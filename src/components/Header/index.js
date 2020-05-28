@@ -54,7 +54,7 @@ class Header extends PureComponent {
     const { cities } = this.props;
     return (
       <section className="header wrapper">
-        <h1>BMO Responsive Demo App</h1>
+        <h1>Xyconic Responsive Demo App</h1>
         <p>
           Search for your favorite restaurant. Start by entering a city name into the City search field.
         </p>

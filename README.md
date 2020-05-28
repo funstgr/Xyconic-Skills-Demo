@@ -1,4 +1,4 @@
-## BMO React Redux Demo with Jest Unit Testing and Cypress Integration Testing
+## Xyconic React Redux Demo with Jest Unit Testing and Cypress Integration Testing
 - Displays a React Redux Application which can search Restaurants and display the information
 - Has precommit hooks for linting and testing both Jest and Cypress
 - Has a City Search filed for the inital request to the BE API

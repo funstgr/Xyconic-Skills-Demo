@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-import Banner from '../Banner/Banner';
+import Banner from '../Banner';
 import Header from '../../containers/HeaderContainer';
 import Filter from '../../containers/FilterContainer';
 import Content from '../../containers/ContentContainer';
