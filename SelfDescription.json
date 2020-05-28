@@ -1,0 +1,35 @@
+{
+    "name": "Gregory Funston",
+    "sex": "male",
+    "version": "1.0.0",
+    "dependencies": {
+      "daughter": {
+          "name": "Keri",
+          "age" : 12
+      }
+    },
+    "technologies": {
+      "java": [1.6, 1.7, 1.8, 1.11],
+      "node": "current",
+      "react": "current",
+      "sass": "current",
+      "css3": "current",
+      "html5" : "current"
+    },
+    "testing": {
+      "junit": "current",
+      "node" : ["mocha", "chai", "jest"],
+      "e2e" : ["cypress", "enzyme"]  
+    },
+    "db": ["Oracle", "Postgres", "MySQL", "MSSQL", "DB2"],
+    "nosql" : "mongol",
+    "api": ["open loop", "node"],
+    "development" : "agile",
+    "temperment" : "fun loving",
+    "professional goals": "I love to build great things",
+    "proudest achievements": ["Raptors Insights", "GBI", "Built a house", "Chief Scout Award", "Award from Community for Better Living in Elmira"],
+    "proudest current item": "My daughter placed 8th of over 17,000 in Math Caribou this year",
+    "sports": ["golf", "sailing", "sking", "any group sportor actiivity when I have time"],
+    "hobbies": ["crosswords", "music", "movies", "building/renovating"]
+  }
+  

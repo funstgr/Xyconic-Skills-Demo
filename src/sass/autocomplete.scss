@@ -1,0 +1,156 @@
+.search {
+    width: 18rem;
+    position: relative;
+  }
+  .search-box {
+    border: 4px solid transparent;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: .3rem;
+  }
+  .search-box:focus {
+    width: 100%;
+    outline: none;
+    border: 2px solid #08a1b6;
+  }
+  .search-btn {
+    height: 100%;
+    width: 2em;
+    margin-top: .3em;
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+  
+    opacity: 0.2;
+    background-color: transparent;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('./data/search.js');
+  }
+  .search-btn:hover {
+    outline: none;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+  .search-btn:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+  
+  div.options {
+    display: block;
+    list-style: none;
+    width: 18rem;
+    position: absolute;
+    background: white;
+  }
+  
+  div.options div {
+    display: block;
+    background: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    color: #000000;
+    left: 10px;
+    
+    border-radius: 2px;
+    border-width: .05rem;
+    border-style: solid;
+    border-color: black;
+  }
+  div.options div:hover {
+    font-weight: bold;
+    color: #00b4cc;
+    cursor: pointer;
+  }
+  
+  div.options div.option-active {
+    background: #00b4cc;
+    font-size: 1.2rem;
+    color: red;
+  }
+  .no-options {
+    color: white;
+    padding: .3rem;
+  }
+
+  .city_search_label{
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .spacer{
+  }
+
+  .add_search_label{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .25rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .additional_search_col{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .additional_search_input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .additional-search{
+    width: 70vw;
+    max-width: 30rem;
+    margin: auto;
+  }
+
+  .additional-search input{
+    width: 70vw;
+    max-width: 30rem;
+    background: lightblue;
+  }
+
+  .note_text{
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .button_search_row{
+    display:flex;
+    flex-direction: row;
+    text-align: right;
+    padding-top: 1rem;
+  }
+
+  .button_search_row_div{
+    width:100%;
+  }
+
+  .button_search_row_div button{
+    border-radius: 5px;
+    border-width: .1rem;
+    border-style: solid;
+    
+    padding: .75rem;
+  }
+
+  .button_search_row_div button:hover{
+  }
+
+  .search_button_text{
+    font-size: 1.25rem;
+    font-weight: bolder;
+  }
+
+  .additional_input{
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
