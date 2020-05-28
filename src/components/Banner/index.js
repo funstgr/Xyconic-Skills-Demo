@@ -13,7 +13,7 @@ class Banner extends PureComponent {
           <div className="banner_text"><span className="banner_span">Xyconic Ltd.</span></div>
         </div>
         <div className="image_div">
-          <img src={network} alt="network image" />
+          <img src={network} alt="network" />
         </div>
       </div>
     );
