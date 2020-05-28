@@ -9,11 +9,11 @@ class Banner extends PureComponent {
     return (
       <div className="flex-banner-container wrapper-banner banner wrapper">
         <div className="logo_div">
-          <img src={xyconic} alt="BMO logo" />
+          <img src={xyconic} alt="xyconic svg logo" />
           <div className="banner_text"><span className="banner_span">Xyconic Ltd.</span></div>
         </div>
         <div className="image_div">
-          <img src={network} alt="BMO logo" />
+          <img src={network} alt="network image" />
         </div>
       </div>
     );
